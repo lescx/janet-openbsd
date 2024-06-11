@@ -60,3 +60,11 @@
   ``
   [promises execpromises]
   (_openbsd/pledge (validate-and-stringify promises) (validate-and-stringify execpromises)))
+
+(defn unveil
+  ``
+  "(openbsd/unveil path permissions)",
+  Call the unveil(2) system call to restrict an application to specific parts of the filesystem.
+  ``
+  [path permissions]
+  (_openbsd/unveil path permissions))

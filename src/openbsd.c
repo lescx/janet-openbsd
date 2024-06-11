@@ -2,8 +2,8 @@
 #include <unistd.h>
 
 JANET_FN(cfun_pledge,
-         "Usage",
-     "Docstring") {
+         "(_openbsd/pledge promises execpromises)",
+     "Call pledge(2) syscall") {
     janet_fixarity(argc, 2);
 
     const char *promises = janet_optstring(argv, argc, 0, NULL);
@@ -17,8 +17,8 @@ JANET_FN(cfun_pledge,
 }
 
 JANET_FN(cfun_unveil,
-         "Usage",
-     "Docstring") {
+         "(_openbsd/unveil path permissions)",
+     "Call unveil(2) syscall") {
     janet_fixarity(argc, 2);
 
     const char *path = janet_getstring(argv, 0);
