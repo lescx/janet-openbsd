@@ -4,7 +4,7 @@ A Janet wrapper module around OpenBSD specific syscalls.
 
 ## Status
 
-Currently, [`pledge(2)`](https://man.openbsd.org/pledge.2) is implemented and [`unveil(2)`](https://man.openbsd.org/unveil.2) is WIP.
+Currently, [`pledge(2)`](https://man.openbsd.org/pledge.2) and [`unveil(2)`](https://man.openbsd.org/unveil.2) are implemented.
 
 Future work includes implementation of the following syscalls:
 

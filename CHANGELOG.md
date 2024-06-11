@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.2.0 - 2024-06-11
+- Implement unveil.
+
 ## 0.1.0 - 2024-06-11
 - Finished pledge.
 - Better error handling should be implemented in the future.

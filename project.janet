@@ -5,7 +5,7 @@
   :license "MIT"
   :url "https://git.sr.ht/~les/janet-openbsd"
   :repo "https://git.sr.ht/~les/janet-openbsd"
-  :version "0.1.0")
+  :version "0.2.0")
 
 (declare-source
   :name "openbsd"
