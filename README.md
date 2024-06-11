@@ -31,14 +31,7 @@ $ [doas|sudo] jpm update-installed
 
 ## Usage (from Janet)
 
-```janet
-(import openbsd)
-
-(if (= os/which :openbsd)
-  (do
-    (openbsd/pledge [:stdio :rpath] nil)
-    (openbsd/unveil "/usr/src" "rc")))
-```
+If you develop your application for more systems then just OpenBSD, wrap your `(openbsd/)` specific syscalls in `(= os/which :openbsd)`.
 
 To read the documentation of a particular function:
 
@@ -48,6 +41,17 @@ repl:1:> (import openbsd)
 @{_ @{:value <cycle 0>} openbsd/pledge @{:private true}}
 repl:2:> (doc openbsd/pledge)
 […]
+```
+
+## Basic Example
+
+```janet
+(import openbsd)
+
+(if (= os/which :openbsd)
+  (do
+    (openbsd/pledge [:stdio :rpath] nil)
+    (openbsd/unveil "/usr/src" "rc")))
 ```
 
 ## Contribute
