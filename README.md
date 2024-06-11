@@ -56,4 +56,4 @@ repl:2:> (doc openbsd/pledge)
 
 ## License
 
-This package is licensed under the MIT license. See [LICENSE](./LICENSE) for further information.
+This package is released under the MIT License. See [LICENSE](./LICENSE) for more information.
