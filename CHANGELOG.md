@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.3.0 - 2024-06-11
+- Implement sendsyslog.
+
 ## 0.2.0 - 2024-06-11
 - Implement unveil.
 

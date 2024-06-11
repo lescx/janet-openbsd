@@ -68,3 +68,11 @@
   ``
   [path permissions]
   (_openbsd/unveil path permissions))
+
+(defn sendsyslog
+  ``
+  "(openbsd/sendsyslog msg len flags)",
+  Call the sendsyslog(2) system call to send a message to syslogd.
+  ``
+  [msg len flags]
+  (_openbsd/sendsyslog msg len flags))

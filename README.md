@@ -4,13 +4,16 @@ A Janet wrapper module around OpenBSD specific syscalls.
 
 ## Status
 
-Currently, [`pledge(2)`](https://man.openbsd.org/pledge.2) and [`unveil(2)`](https://man.openbsd.org/unveil.2) are implemented.
+**Implemented:**
 
-Future work includes implementation of the following syscalls:
+* [`pledge(2)`](https://man.openbsd.org/pledge.2)
+* [`sendsyslog(2)`](https://man.openbsd.org/sendsyslog.2)
+* [`unveil(2)`](https://man.openbsd.org/unveil.2)
+
+**Future work:**
 
 * [`kbind(2)`](https://man.openbsd.org/kbind.2)
 * [`pinsyscalls(2)`](https://man.openbsd.org/pinsyscalls.2)
-* [`sendsyslog(2)`](https://man.openbsd.org/sendsyslog.2)
 * _and more…_
 
 ## Install (from jpm)
