@@ -15,7 +15,7 @@ Future work includes implementation of the following syscalls:
 
 ## Install (from jpm)
 
-[`jpm`](https://git.sr.ht/~bakpakin/jpm) is not in the ports tree yet. If you haven't installed `jpm` yet, follow the bootstrap installation instructions in the link provided.
+[jpm](https://git.sr.ht/~bakpakin/jpm) is not in the ports tree yet. If you haven't installed jpm yet, follow the bootstrap installation instructions in the link provided.
 
 Afterwards you can install the package is ususal:
 
@@ -29,7 +29,7 @@ To update the package to the newest version:
 $ [doas|sudo] jpm update-installed
 ```
 
-## Usage
+## Usage (from Janet)
 
 ```janet
 (import openbsd)
