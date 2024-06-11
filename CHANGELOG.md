@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.0 - 2024-06-11
+- Finished pledge.
+- Better error handling should be implemented in the future.
+
 ## 0.0.5 - 2024-06-09
 - Working pledge.
 
